@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1920">
+<meta name="description" content="Example video player application using Tizen webapis.avplay" />
+	
+
+	<title>Tizen Video Example App</title>
+	<script type='text/javascript' src='$WEBAPIS/webapis/webapis.js'></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+</head>
+
+<body>
+	<object id="av-player" type="application/avplayer"></object>
+	<div class="logField">
+		<h2>Logs</h2>
+		<div class="logs" id="logs"></div>
+		<h2>Info</h2>
+	</div>
+	<div class="logs" id="info"></div>
+
+	<script src="./js/registerKeyHandler.js"></script>
+	<script src="./js/videoPlayer.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
